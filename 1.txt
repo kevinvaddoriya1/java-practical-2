@@ -5,6 +5,7 @@ public class EmployeeDataSorting {
         int n = 3;
         Employee e[] = new Employee[n];
         Employee temp;
+	temp.kevin();
         for(int i = 0;i < n ; i++) {
             e[i] = new Employee();
         }
@@ -57,5 +58,8 @@ class Employee {
     }
     void display() {
         System.out.println(id + "  " +name + "  "+salary);
+    }
+    void kevin(){
+	System.out.println("Kevin");
     }
 }
